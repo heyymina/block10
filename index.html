@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rounded Candy Corn with CSS</title>
+<style>
+    /* Container for centering */
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+
+    /* Candy Corn Shape */
+    .candy-corn {
+        width: 100px;
+        height: 150px;
+        background: radial-gradient(circle at 50% 0%, #FFF4B3 40%, #FFF4B3 33%, #FF6F00 33%, #FF6F00 66%, #FFBA00 66%, #FFBA00 100%);
+        border-radius: 80% 80% 40% 40%; /* Rounded top and bottom */
+        position: relative;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="candy-corn"></div>
+    </div>
+</body>
+</html>
